@@ -2,7 +2,8 @@
 
 A modern, full-stack URL shortening application , built with React, TypeScript, and Python FastAPI.
 
-<img width="1895" height="905" alt="{87B10ED3-D4ED-4CE0-B798-076DA2B807B8}" src="https://github.com/user-attachments/assets/f2923e11-a246-4268-a6d0-bbf7c3477c4c" />
+<img width="1884" height="895" alt="{A0A4A62C-3EC0-4C01-A5E2-4307E303ADA6}" src="https://github.com/user-attachments/assets/a3fcc381-b3d4-4a6f-8165-a865d6f14e6e" />
+
 
 
 ## 📋 Project Overview
