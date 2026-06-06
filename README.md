@@ -2,6 +2,9 @@
 
 A modern, full-stack URL shortening application similar to Bitly, built with React, TypeScript, and Python FastAPI.
 
+<img width="1895" height="905" alt="{87B10ED3-D4ED-4CE0-B798-076DA2B807B8}" src="https://github.com/user-attachments/assets/f2923e11-a246-4268-a6d0-bbf7c3477c4c" />
+
+
 ## 📋 Project Overview
 
 This application allows users to:
