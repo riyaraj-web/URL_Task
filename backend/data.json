@@ -13,6 +13,20 @@
       "shortCode": "QEDc0z",
       "createdAt": "2026-06-06T03:11:15.965371",
       "clickCount": 0
+    },
+    "3": {
+      "id": 3,
+      "originalUrl": "https://www.example.com/",
+      "shortCode": "EI0b7E",
+      "createdAt": "2026-06-06T12:55:00.031206",
+      "clickCount": 0
+    },
+    "4": {
+      "id": 4,
+      "originalUrl": "https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z",
+      "shortCode": "Bm2i5W",
+      "createdAt": "2026-06-06T12:56:02.720410",
+      "clickCount": 0
     }
   },
   "clicks": []
