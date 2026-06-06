@@ -1,0 +1,144 @@
+.url-shortener-container {
+  width: 100%;
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  padding: 60px 20px;
+}
+
+.url-shortener-hero {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.url-shortener-hero h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.url-form {
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.url-input {
+  flex: 1;
+  min-width: 250px;
+  padding: 16px 20px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.url-input:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+.url-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.shorten-button {
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #00BCD4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shorten-button:hover:not(:disabled) {
+  background-color: #00ACC1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shorten-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.shorten-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error-message {
+  color: #ff6b6b;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.helper-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .url-shortener-container {
+    padding: 40px 15px;
+  }
+
+  .url-shortener-hero h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .url-input {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .shorten-button {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .url-shortener-container {
+    padding: 30px 10px;
+  }
+
+  .url-shortener-hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .url-input,
+  .shorten-button {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}

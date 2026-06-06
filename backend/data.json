@@ -1,0 +1,19 @@
+{
+  "urls": {
+    "1": {
+      "id": 1,
+      "originalUrl": "https://www.example1.com/",
+      "shortCode": "1iQxOx",
+      "createdAt": "2026-06-06T03:11:15.951985",
+      "clickCount": 0
+    },
+    "2": {
+      "id": 2,
+      "originalUrl": "https://www.example2.com/",
+      "shortCode": "QEDc0z",
+      "createdAt": "2026-06-06T03:11:15.965371",
+      "clickCount": 0
+    }
+  },
+  "clicks": []
+}
